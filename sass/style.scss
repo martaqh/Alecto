@@ -218,3 +218,23 @@ input[type="search"] {
     top: 50%;
     transform: translateX(-50%);
 }
+
+/* Products */
+
+.product-row-left {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    
+    
+}
+
+.left-col, .right-col {
+    margin: 0 20px;
+}
+
+.left-col img {
+    object-fit: cover;
+    width: 100%;
+}
+
