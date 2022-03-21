@@ -221,11 +221,9 @@ input[type="search"] {
 
 /* Products */
 
-.product-row-left {
+.product-row-left, .product-row-right {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    
     
 }
 
@@ -233,7 +231,7 @@ input[type="search"] {
     margin: 0 20px;
 }
 
-.left-col img {
+.products img {
     object-fit: cover;
     width: 100%;
 }
