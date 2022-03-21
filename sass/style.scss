@@ -121,6 +121,9 @@ h4 {
     color: $font-color-secondary;
     background: url(https://i.postimg.cc/251w8tcc/pexels-tom-mal-k-1661146.jpg);
     height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
  
 
@@ -247,9 +250,50 @@ input[type="search"] {
     padding: 10px 0;
 }
 
-.products btn-two {
-    justify-content: left;
+
+
+/* Opinions */
+
+.opinions {
+    background-image: url(https://i.postimg.cc/Qx6hNj04/pexels-cadeau-maestro-1170412.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+    
+
 }
 
+.opinions::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: ""; 
+    opacity: 0.6;
+    background-color: black;
+    z-index: 0;
+    top: 0;
+    left: 0;  
+}
+
+
+.opinions .container {
+    color: $font-color-secondary;
+    z-index: 1;
+    text-align: center;
+}
+
+.opinions img {
+  
+    
+    width: 40px;
+    height: 40px;
+    
+    
+    border-radius: 50%;
+    margin-right: 30px;
+    text-align: center;
+}
 
 
