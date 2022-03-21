@@ -88,11 +88,12 @@ h4 {
 
 .btn {
     display: inline-block;
-    min-width: 160px;
+    min-width: 200px;
     margin: 24px auto 0 auto;
     padding: 16px;
-    border-radius: 5px;
+    border-radius: 30px;
     font-family: $font-main;
+    font-weight: 700;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -110,8 +111,8 @@ h4 {
 }
 
 .btn-two {
-   
-    
+    border: none;
+    color: $font-color-secondary; 
 }
 
 /* Navigation */
