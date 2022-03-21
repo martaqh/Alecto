@@ -231,8 +231,25 @@ input[type="search"] {
     margin: 0 20px;
 }
 
+.product-row-left .right-col, .product-row-right .left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+
 .products img {
     object-fit: cover;
     width: 100%;
 }
+
+.product-row-title {
+    padding: 10px 0;
+}
+
+.products btn-two {
+    justify-content: left;
+}
+
+
 
