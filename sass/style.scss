@@ -23,7 +23,7 @@ body {
 
 .logo {
     font-family: $font-logo;
-    font-size: 24px;
+    font-size: 36px;
     padding: 20px;
 }
 
@@ -45,6 +45,7 @@ section {
     margin: 0 0 60px 0;
     padding: 20px 0 0;
     text-align: center;
+    min-height: 700px;
     
 }
 
@@ -250,6 +251,12 @@ input[type="search"] {
     padding: 10px 0;
 }
 
+.products .btn {
+    position: relative;
+    margin-left: 0;
+
+}
+
 
 
 /* Opinions */
@@ -285,9 +292,22 @@ input[type="search"] {
 }
 
 .opinions img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+}
+
+.opinion-text {
+    padding: 20px;
+}
+
+.opinion-author {
+    margin: 20px;
+    
+}
+.opinion-author span {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 
