@@ -263,11 +263,11 @@ input[type=search] {
   padding: 20px;
 }
 
-.opinion-author {
-  margin: 20px;
+.opinion-author-name, .opinion-author-position {
+  padding: 5px;
 }
 
-.opinion-author span {
+.opinion-author-name {
   text-transform: uppercase;
   font-weight: 700;
 }
